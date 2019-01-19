@@ -1,1 +1,3 @@
-chrome extension testing
+# Chrome extension
+
+## Experiment using React to build a Chrome extension
