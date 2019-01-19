@@ -9,5 +9,5 @@
         ],
         "persistent": false
     },
-    "permissions": ["activeTab"]
+    "permissions": ["activeTab, storage, declarativeContent"]
 }
