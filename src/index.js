@@ -2,13 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "purecss";
 import Header from "./components/Header/Header";
+import Container from "./components/Container/Container";
 import * as serviceWorker from "./serviceWorker";
 
-ReactDOM.render(<Header />, document.getElementById("root"));
+ReactDOM.render(<Container />, document.getElementById("root"));
 
-// chrome.tabs.query(info => {
-//   console.log(info);
-// });
+if (module.hot) {
+  module.hot.accept("./components/Header/Header", () => {
+    const NextApp = require("./components/Header/Header").default;
+    ReactDOM.render(<NextApp />, document.getElementById("root"));
+  });
+}
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
