@@ -1,20 +1,35 @@
-import React, { Component } from 'react';
-import logo from '../../images/logo.svg';
-import './Header.sass';
+import React, { Component } from "react";
+import "./Header.sass";
 
 class Header extends Component {
   render() {
     return (
-      <div className="Header">
-        <header className="Header-header">
-          <img src={logo} className="Header-logo" alt="logo" />
-          <div className="pure-g">
-            <div className="pure-u-1-3">test</div>
-            <div className="pure-u-1-3">test</div>
-            <div className="pure-u-1-3">test</div>
+      <React.Fragment>
+        <div className="header">
+          <div className="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+            <a href="" className="pure-menu-heading">
+              Test
+            </a>
+            {/* <ul class="pure-menu-list">
+              <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">
+                  Home
+                </a>
+              </li>
+              <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">
+                  Todo
+                </a>
+              </li>
+              <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">
+                  About
+                </a>
+              </li>
+            </ul> */}
           </div>
-        </header>
-      </div>
+        </div>
+      </React.Fragment>
     );
   }
 }

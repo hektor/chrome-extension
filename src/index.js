@@ -1,11 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-// import './index.css';
-import 'purecss';
-import Header from './components/Header/Header';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "purecss";
+import Header from "./components/Header/Header";
+import * as serviceWorker from "./serviceWorker";
 
-ReactDOM.render(<Header />, document.getElementById('root'));
+ReactDOM.render(<Header />, document.getElementById("root"));
+
+// chrome.tabs.query(info => {
+//   console.log(info);
+// });
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
