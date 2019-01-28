@@ -8,17 +8,11 @@ class Header extends Component {
       <div className="Header">
         <header className="Header-header">
           <img src={logo} className="Header-logo" alt="logo" />
-          <p>
-            Edit <code>src/Header.js</code> and save to reload.
-          </p>
-          <a
-            className="Header-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <div className="pure-g">
+            <div className="pure-u-1-3">test</div>
+            <div className="pure-u-1-3">test</div>
+            <div className="pure-u-1-3">test</div>
+          </div>
         </header>
       </div>
     );
