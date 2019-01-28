@@ -4,11 +4,7 @@ import "./Container.sass";
 class Container extends Component {
   state = {};
   render() {
-    return (
-      <div className="container">
-        <div />
-      </div>
-    );
+    return <div className="container">container</div>;
   }
 }
 

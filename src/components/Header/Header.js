@@ -7,26 +7,14 @@ class Header extends Component {
       <React.Fragment>
         <div className="header">
           <div className="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-            <a href="" className="pure-menu-heading">
-              Test
-            </a>
-            {/* <ul class="pure-menu-list">
-              <li class="pure-menu-item">
-                <a href="#" class="pure-menu-link">
-                  Home
-                </a>
-              </li>
-              <li class="pure-menu-item">
-                <a href="#" class="pure-menu-link">
-                  Todo
-                </a>
-              </li>
-              <li class="pure-menu-item">
-                <a href="#" class="pure-menu-link">
-                  About
-                </a>
-              </li>
-            </ul> */}
+            <div href="#" className="pure-menu-heading">
+              ttestt
+            </div>
+            <ul className="pure-menu-list">
+              <li className="pure-menu-item">Home</li>
+              <li className="pure-menu-item">Todo</li>
+              <li className="pure-menu-item">About</li>
+            </ul>
           </div>
         </div>
       </React.Fragment>
